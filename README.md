@@ -6,3 +6,8 @@
 - Run the Express server only ==> npm run server
 - Run the React client only ==> npm run client
 - Server runs on http://localhost:5000 and client on http://localhost:3000
+
+![Screenshots](./public/screenshot.png)
+
+## Technology ##
+React, Node, Express, Material UI
