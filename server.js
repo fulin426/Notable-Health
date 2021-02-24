@@ -5,8 +5,8 @@ const app = express();
 app.get('/api/data', (req, res) => {
   const data = [
     {id: '1', firstName:'Julius', lastName: 'Hibbert', email:'Julius@email.com'},
-    {id: '2', firstName:'Algernoppo', lastName: 'Karen', email:'Karen@email.com'},
-    {id: '3', firstName:'Bob', lastName: 'Taylor', email:'Julius@email.com'},
+    {id: '2', firstName: 'Karen', lastName: 'Algernoppo', email:'Karen@email.com'},
+    {id: '3', firstName:'Bob', lastName: 'Taylor', email:'Bob@email.com'},
   ];
   res.json(data);
 });
