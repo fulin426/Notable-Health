@@ -47,13 +47,13 @@ app.get('/api/appointments', (req, res) => {
 });
 
 app.post('/api/add', (req, res) => {
+  // Grab name id of doctor
   const nameId = req.body.selectedNameId;
   let index;
   // look for the index of doctor
   for (let i = 0; i < schedules.length; i++) {
     if (nameId === schedules[i].id) {
       index = i;
-      break;
     }
   }
   // create new appointment object
